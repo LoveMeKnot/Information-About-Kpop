@@ -1,0 +1,74 @@
+.mainPageImage{
+    width: 100%;
+    height: 100vh;
+    border: black 20px;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:palegreen;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    font-size: 22px;
+    color:darkmagenta;
+    text-align: center;
+    font-family: 'Meera Inimai';
+}
+.container_Button{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px black;    
+}
+.image_row{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.img_coll{
+    margin:10px;
+    flex-basis: 48%;
+}
+.img_coll:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.img_coll img{
+    width: 100%;
+    border: 5px solid rgb(0, 0, 0);
+}
+.p2{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+.box{
+    width: 1200px;
+    height: 810px;
+    background-color: teal;
+    margin: 50px;
+    padding: 10px;
+    font-size: 30px;
+    border: 5px solid black;
+    display: inline-block;
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px red;
+    transition: 0.5s;
+    text-align: center;
+}
+.box:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
